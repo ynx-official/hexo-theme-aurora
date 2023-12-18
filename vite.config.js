@@ -73,7 +73,9 @@ export default ({ mode }) => {
     server: {
       proxy: {
         '/api': {
-          target: 'http://localhost:4000/api',
+          target: 'http://localhost:8301/demo/mockApi/ynx',
+          // target: 'https://blog.bennyxguo.com/api/api',
+          // target: 'https://tridiamond.tech/api',
           changeOrigin: true,
           rewrite: path => path.replace(/^\/api/, '')
         },

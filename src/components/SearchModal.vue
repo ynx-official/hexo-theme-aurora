@@ -536,7 +536,6 @@ export default defineComponent({
       searchResults,
       keyword,
       isEmpty,
-      searchKeyword,
       recentResults,
       handleResetInput,
       handleArrowUp,
